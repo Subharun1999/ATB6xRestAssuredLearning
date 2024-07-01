@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/asus/Desktop/javaApp/ATB6xRestAssuredLearning/src/test/java/ex30062024_CRUD_NonBDD">
+        <classes>
+            <class name="ex30062024_CRUD_NonBDD.Lab002GET">
+                <methods>
+                    <include name="getReqNonBDDCase1"/>
+                    <include name="getReqNonBDDNegativeTC"/>
+                </methods>
+            </class>
+            <class name="ex30062024_CRUD_NonBDD.Lab004POST">
+                <methods>
+                    <include name="getRequestNonBDDPOST"/>
+                </methods>
+            </class>
+            <class name="ex30062024_CRUD_NonBDD.Lab005PUT">
+                <methods>
+                    <include name="getRequestNonBDDPUT"/>
+                </methods>
+            </class>
+            <class name="ex30062024_CRUD_NonBDD.Lab006PATCH">
+                <methods>
+                    <include name="patchRequestNonBDDPATCH"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
